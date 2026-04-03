@@ -1,23 +1,23 @@
-# 🎤 Voice Assistant com Whisper (Offline)
+# 🎤 Voice Assistant with Whisper (Offline)
 
-## 📌 Descrição
-Assistente de voz desenvolvido em Python utilizando o modelo Whisper para transcrição de áudio, com respostas locais e síntese de voz.
+## 📌 Overview
+This project is a voice assistant built in Python using OpenAI's Whisper model for speech recognition. It works fully offline for transcription and uses rule-based logic to generate responses.
 
-## 🚀 Funcionalidades
-- Captura de áudio via microfone
-- Transcrição com Whisper (offline)
-- Respostas inteligentes baseadas em regras
-- Conversão de texto para voz (TTS)
+## 🚀 Features
+- 🎤 Voice recording via microphone
+- 🧠 Speech-to-text using Whisper
+- 🤖 Rule-based response system
+- 🔊 Text-to-speech output (offline)
 
-## 🧠 Tecnologias
+## 🧰 Technologies
 - Python
-- Whisper (OpenAI)
-- Pyttsx3 (TTS offline)
+- Whisper (speech recognition)
+- Pyttsx3 (text-to-speech)
 - SoundDevice
 
-## ▶️ Como executar
+## ▶️ How to Run
 
-### 1. Clone o repositório
+### 1. Clone the repository
 ```bash
-git clone https://github.com/seu-usuario/voice-assistant-whisper.git
-cd voice-assistant-whisper
+git clone https://github.com/your-username/voice-assistant-whisper-offline.git
+cd voice-assistant-whisper-offline
