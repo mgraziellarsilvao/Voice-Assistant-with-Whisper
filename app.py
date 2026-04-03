@@ -11,7 +11,7 @@ def falar(texto):
     engine.say(texto)
     engine.runAndWait()
 
-# 🧠 Carrega modelo Whisper
+# 🧠 Carrega modelo
 model = whisper.load_model("base")
 
 print("🤖 Assistente iniciado! Diga 'sair' para encerrar.\n")
